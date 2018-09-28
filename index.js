@@ -7,5 +7,6 @@ function nestedTarget() {
 }
 
 function deepestChind() {
-  return document.query
+  let grand = document.querySelector("div#grand-node")
+  
 }
