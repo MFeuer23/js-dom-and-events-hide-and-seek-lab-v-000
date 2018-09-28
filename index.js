@@ -9,7 +9,9 @@ function nestedTarget() {
 function deepestChild() {
   let list = document.querySelector("div#grand-node").querySelectorAll("div")
   for (let i = 0; i < list.length; i++) {
-    if (list[i].querySelector("div"))
+    if (!list[i].querySelector("div")) {
+      return list[i]
+    }
     
   }
 }
