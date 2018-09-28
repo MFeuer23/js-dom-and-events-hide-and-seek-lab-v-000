@@ -12,6 +12,6 @@ function deepestChild() {
     if (!list[i].querySelector("div")) {
       return list[i]
     }
-    
   }
 }
+
